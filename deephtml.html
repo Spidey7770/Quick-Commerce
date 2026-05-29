@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>QuickCommerce</title>
+<link rel="stylesheet" href="deepcss.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<header class="header">
+  <div class="logo">QuickCommerce</div>
+  <div class="search-box">
+    <input type="text" placeholder="Search for products, brands and more">
+    <button><i class="fas fa-search"></i></button>
+  </div>
+  <div class="header-actions">
+    <span><i class="far fa-user"></i> Account</span>
+    <span><i class="fas fa-shopping-cart"></i> Cart</span>
+    <span><i class="far fa-heart"></i> Wishlist</span>
+  </div>
+</header>
+
+<!-- Simplified Sticky Navigation -->
+<nav class="nav sticky-nav">
+  <div class="nav-container">
+    <a href="index.html" class="nav-link active"><i class="fas fa-home"></i> <span>Home</span></a>
+    <a href="electronics.html" class="nav-link"><i class="fas fa-laptop"></i> <span>Electronics</span></a>
+    <a href="fashion.html" class="nav-link"><i class="fas fa-tshirt"></i> <span>Fashion</span></a>
+    <a href="categories.html" class="nav-link"><i class="fas fa-bars"></i> <span>Categories</span></a>
+    <a href="deals.html" class="nav-link"><i class="fas fa-percent"></i> <span>Deals</span></a>
+    <a href="contact.html" class="nav-link"><i class="fas fa-phone"></i> <span>Contact</span></a>
+  </div>
+</nav>
+
+<section class="slider-container">
+  <div class="slider">
+    <div class="slide active">
+      <div class="slide-content">
+        <h2>Smart Shopping Starts Here</h2>
+        <p>Best deals. Fast delivery. Trusted products.</p>
+        <button>Shop Now</button>
+      </div>
+    </div>
+    
+    <div class="slide">
+      <div class="slide-content">
+        <h2>Summer Sale Live Now</h2>
+        <p>Up to 60% off on fashion & electronics</p>
+        <button>Explore Deals</button>
+      </div>
+    </div>
+    
+    <div class="slide">
+      <div class="slide-content">
+        <h2>Free Delivery on First Order</h2>
+        <p>Get your favorite products delivered free</p>
+        <button>Start Shopping</button>
+      </div>
+    </div>
+  </div>
+  
+  <div class="slider-controls">
+    <button class="prev-btn"><i class="fas fa-chevron-left"></i></button>
+    <button class="next-btn"><i class="fas fa-chevron-right"></i></button>
+  </div>
+  
+  <div class="slider-dots">
+    <span class="dot active"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
+</section>
+
+<section class="categories">
+  <h2>Shop by Category</h2>
+  <div class="categories-container">
+    <div class="category">
+      <i class="fas fa-laptop"></i>
+      <span>Electronics</span>
+    </div>
+    <div class="category">
+      <i class="fas fa-tshirt"></i>
+      <span>Fashion</span>
+    </div>
+    <div class="category">
+      <i class="fas fa-home"></i>
+      <span>Home</span>
+    </div>
+    <div class="category">
+      <i class="fas fa-spa"></i>
+      <span>Beauty</span>
+    </div>
+    <div class="category">
+      <i class="fas fa-dumbbell"></i>
+      <span>Sports</span>
+    </div>
+    <div class="category">
+      <i class="fas fa-utensils"></i>
+      <span>Groceries</span>
+    </div>
+  </div>
+</section>
+
+<section class="products">
+  <div class="section-header">
+    <h2>Trending Deals</h2>
+    <a href="deals.html" class="view-all">View All</a>
+  </div>
+
+  <div class="product-grid">
+    <div class="product-card">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1599669454699-248893623440?w=400&h=300&fit=crop&crop=center" alt="Wireless Earbuds">
+      </div>
+      <h3>Wireless Earbuds</h3>
+      <p class="product-desc">Noise cancellation with 30hr battery</p>
+      <div class="price">
+        <span class="new">₹999</span>
+        <span class="old">₹2499</span>
+        <span class="discount">60% off</span>
+      </div>
+      <div class="rating">★★★★☆ <span>(4.2)</span></div>
+      <button class="cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop&crop=center" alt="Smart Watch">
+      </div>
+      <h3>Smart Watch</h3>
+      <p class="product-desc">Health monitoring, waterproof</p>
+      <div class="price">
+        <span class="new">₹1499</span>
+        <span class="old">₹2999</span>
+        <span class="discount">50% off</span>
+      </div>
+      <div class="rating">★★★★★ <span>(4.8)</span></div>
+      <button class="cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1546435770-a3e426bf472b?w=400&h=300&fit=crop&crop=center" alt="Bluetooth Speaker">
+      </div>
+      <h3>Bluetooth Speaker</h3>
+      <p class="product-desc">360° sound, 20hr battery life</p>
+      <div class="price">
+        <span class="new">₹799</span>
+        <span class="old">₹1999</span>
+        <span class="discount">60% off</span>
+      </div>
+      <div class="rating">★★★★☆ <span>(4.3)</span></div>
+      <button class="cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+    </div>
+
+    <div class="product-card">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1549298916-b41d501d3772?w=400&h=300&fit=crop&crop=center" alt="Casual Sneakers">
+      </div>
+      <h3>Casual Sneakers</h3>
+      <p class="product-desc">Comfort fit, premium quality</p>
+      <div class="price">
+        <span class="new">₹1799</span>
+        <span class="old">₹3499</span>
+        <span class="discount">48% off</span>
+      </div>
+      <div class="rating">★★★★☆ <span>(4.5)</span></div>
+      <button class="cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1596755094514-f87e34085b2c?w=400&h=300&fit=crop&crop=center" alt="Formal Shirt">
+      </div>
+      <h3>Formal Shirt</h3>
+      <p class="product-desc">Cotton blend, slim fit</p>
+      <div class="price">
+        <span class="new">₹799</span>
+        <span class="old">₹1499</span>
+        <span class="discount">47% off</span>
+      </div>
+      <div class="rating">★★★☆☆ <span>(3.8)</span></div>
+      <button class="cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1542272604-787c3835535d?w=400&h=300&fit=crop&crop=center" alt="Designer Jeans">
+      </div>
+      <h3>Designer Jeans</h3>
+      <p class="product-desc">Stretch denim, modern fit</p>
+      <div class="price">
+        <span class="new">₹1299</span>
+        <span class="old">₹1999</span>
+        <span class="discount">35% off</span>
+      </div>
+      <div class="rating">★★★★☆ <span>(4.1)</span></div>
+      <button class="cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=400&h=300&fit=crop&crop=center" alt="Digital Watch">
+      </div>
+      <h3>Digital Watch</h3>
+      <p class="product-desc">Military grade, multiple features</p>
+      <div class="price">
+        <span class="new">₹2799</span>
+        <span class="old">₹4499</span>
+        <span class="discount">38% off</span>
+      </div>
+      <div class="rating">★★★★★ <span>(4.9)</span></div>
+      <button class="cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+    </div>
+    
+    <div class="product-card">
+      <div class="product-img">
+        <img src="https://images.unsplash.com/photo-1511499767150-a48a237f0083?w=400&h=300&fit=crop&crop=center" alt="UV Sunglasses">
+      </div>
+      <h3>UV Sunglasses</h3>
+      <p class="product-desc">100% UV protection, stylish</p>
+      <div class="price">
+        <span class="new">₹799</span>
+        <span class="old">₹1199</span>
+        <span class="discount">33% off</span>
+      </div>
+      <div class="rating">★★★★☆ <span>(4.4)</span></div>
+      <button class="cart-btn"><i class="fas fa-cart-plus"></i> Add to Cart</button>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-section">
+    <h4>QuickCommerce</h4>
+    <p>Smarter Shopping, Better Living</p>
+  </div>
+  <div class="footer-section">
+    <h4>Help</h4>
+    <p>Support</p>
+    <p>Returns</p>
+    <p>FAQ</p>
+  </div>
+  <div class="footer-section">
+    <h4>Company</h4>
+    <p>About Us</p>
+    <p>Careers</p>
+    <p>Contact</p>
+  </div>
+  <div class="footer-section">
+    <h4>Connect With Us</h4>
+    <div class="social-icons">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-instagram"></i>
+    </div>
+  </div>
+</footer>
+
+<script>
+const slides = document.querySelectorAll('.slide');
+const dots = document.querySelectorAll('.dot');
+const prevBtn = document.querySelector('.prev-btn');
+const nextBtn = document.querySelector('.next-btn');
+let currentSlide = 0;
+
+function showSlide(n) {
+  slides.forEach(slide => slide.classList.remove('active'));
+  dots.forEach(dot => dot.classList.remove('active'));
+  
+  currentSlide = n;
+  if (currentSlide >= slides.length) currentSlide = 0;
+  if (currentSlide < 0) currentSlide = slides.length - 1;
+  
+  slides[currentSlide].classList.add('active');
+  dots[currentSlide].classList.add('active');
+}
+
+let slideInterval = setInterval(() => showSlide(currentSlide + 1), 5000);
+
+prevBtn.addEventListener('click', () => {
+  clearInterval(slideInterval);
+  showSlide(currentSlide - 1);
+  slideInterval = setInterval(() => showSlide(currentSlide + 1), 5000);
+});
+
+nextBtn.addEventListener('click', () => {
+  clearInterval(slideInterval);
+  showSlide(currentSlide + 1);
+  slideInterval = setInterval(() => showSlide(currentSlide + 1), 5000);
+});
+
+dots.forEach((dot, index) => {
+  dot.addEventListener('click', () => {
+    clearInterval(slideInterval);
+    showSlide(index);
+    slideInterval = setInterval(() => showSlide(currentSlide + 1), 5000);
+  });
+});
+
+document.querySelectorAll('.cart-btn').forEach(button => {
+  button.addEventListener('click', function() {
+    const productName = this.parentElement.querySelector('h3').textContent;
+    alert(`Added ${productName} to cart!`);
+  });
+});
+</script>
+
+</body>
+</html>
